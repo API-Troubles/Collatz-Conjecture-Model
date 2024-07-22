@@ -9,7 +9,7 @@ except ValueError:
     raise TypeError("You must input a valid number!") from None
 
 if starting_num == 1:
-    raise TypeError("The number cannot be 1.")
+    raise ValueError("The number cannot be 1.")
 
 
 def even(num: int) -> bool:
