@@ -1,5 +1,4 @@
 import sympy
-import matplotlib.pyplot as plt
 
 starting_num = input("Enter starting number: ")
 
