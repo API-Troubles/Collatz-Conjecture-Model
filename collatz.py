@@ -14,7 +14,7 @@ if starting_num == 1:
 
 def even(num: int) -> bool:
     return num % 2 == 0
-    
+
 
 next_num: int = 0
 results: list[int] = [starting_num]
@@ -47,4 +47,4 @@ plt.ylabel('Result')
 
 plt.title(f'Collatz Conjecture - {starting_num}')
 
-plt.savefig(f'graphs/{starting_num}.png')
+plt.savefig(f'collatz_graphs/collatz_{starting_num}.png')
